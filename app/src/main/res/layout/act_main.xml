@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.chaychan.library.BottomBarLayout
+        android:id="@+id/bbl_main"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.chaychan.library.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            app:iconNormal="@mipmap/main_c1"
+            app:iconSelected="@mipmap/main_s1"
+            app:itemMarginTop="5dp"
+            app:itemText="首页"
+            app:itemTextSize="12sp"
+            app:textColorNormal="#333333"
+            app:textColorSelected="@color/themColor"
+            tools:targetApi="lollipop" />
+
+        <com.chaychan.library.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            app:iconNormal="@mipmap/main_c2"
+            app:iconSelected="@mipmap/main_s2"
+            app:itemMarginTop="5dp"
+            app:itemText="论坛"
+            app:itemTextSize="12sp"
+            app:textColorNormal="#333333"
+            app:textColorSelected="@color/themColor"
+            tools:targetApi="lollipop" />
+
+
+        <com.chaychan.library.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            app:iconNormal="@mipmap/main_c3"
+            app:iconSelected="@mipmap/main_s3"
+            app:itemMarginTop="5dp"
+            app:itemText="消息"
+            app:itemTextSize="12sp"
+            app:textColorNormal="#333333"
+            app:textColorSelected="@color/themColor"
+            tools:targetApi="lollipop" />
+
+
+        <com.chaychan.library.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            app:iconNormal="@mipmap/main_c4"
+            app:iconSelected="@mipmap/main_s4"
+            app:itemMarginTop="5dp"
+            app:itemText="购物车"
+            app:itemTextSize="12sp"
+            app:textColorNormal="#333333"
+            app:textColorSelected="@color/themColor"
+            tools:targetApi="lollipop" />
+
+        <com.chaychan.library.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            app:iconNormal="@mipmap/main_c5"
+            app:iconSelected="@mipmap/main_s5"
+            app:itemMarginTop="5dp"
+            app:itemText="我的"
+            app:itemTextSize="12sp"
+            app:textColorNormal="#333333"
+            app:textColorSelected="@color/themColor"
+            tools:targetApi="lollipop" />
+    </com.chaychan.library.BottomBarLayout>
+
+</LinearLayout>

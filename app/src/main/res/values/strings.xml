@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">fengbase</string>
+
+
+    <string name="loading">请稍后</string>
+
+    <string name="no_net">网络不可用,请检查你的网络</string>
+    <string name="have_net">网络连接已恢复正常</string>
+    <string name="service_error">服务器访问出错</string>
+</resources>
