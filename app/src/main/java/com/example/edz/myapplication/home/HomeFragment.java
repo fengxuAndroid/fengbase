@@ -25,7 +25,7 @@ public class HomeFragment extends BaseFragment<HomePagePresenter> implements Hom
     protected void initView() {
 
         //登录接口
-        mPresenter.getHomePageData("1111111111111", "test001", "123456");
+        mPresenter.getHomePageData("11111111111111", "test001", "123456");
 
     }
 
