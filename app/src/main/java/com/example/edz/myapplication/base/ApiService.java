@@ -28,8 +28,10 @@ public interface ApiService {
 //    Flowable<ResponseData<HomePageBean>> getHomePage(@Body RequestParams parama);
 //    Flowable<ResponseData<HomePageBean>> getHomePage(@Body() Map pack_no);
 
+
     /**
      * 登录
+     * 参数可以自己扩展定义，如：传递map键值对数据 在拦截器 添加通用请求信息等
      */
     @FormUrlEncoded
     @POST("login")
