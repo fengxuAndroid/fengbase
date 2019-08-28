@@ -6,6 +6,8 @@
  
  apk 下载地址：[fengbaseDemo](https://www.pgyer.com/fengbase "fengbaseDemo")
  
+ 
+ 参数可以自己扩展定义，如：传递map键值对数据 在拦截器 添加通用请求信息等
  ![](http://ww3.sinaimg.cn/large/006tNc79gy1g60don8gkbj31ay0m8q6k.jpg)
  ![](http://ww1.sinaimg.cn/large/006tNc79gy1g60dozl8ckj318u0u0aid.jpg)
 ![](http://ww4.sinaimg.cn/large/006tNc79gy1g60dpbafc1j319w0tuaf7.jpg)
